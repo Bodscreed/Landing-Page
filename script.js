@@ -47,7 +47,7 @@ function debounce(func, wait) {
 
 document.getElementById('cta-btn').addEventListener('click', function() {
     const link = document.createElement('a');
-    link.href = "imagens\Curriculo_Ruan_Baiao.pdf";
+    link.href = "imagens/Curriculo_Ruan_Baiao.pdf";
     link.download = 'Curriculo_Ruan_Baiao.pdf';
     document.body.appendChild(link);
     link.click();
